@@ -1,0 +1,6 @@
+*.[oa]
+*~
+.*.swp
+.DS_Store
+.idea/
+cmake*/

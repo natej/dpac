@@ -1,0 +1,5 @@
+Dpac was created by Nathan Jennings.
+
+Contributing authors include:
+
+- Nathan Jennings <natej.git@gmail.com>
