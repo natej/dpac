@@ -20,7 +20,7 @@ How do I use it?
 ----------------
 
 For example, you could configure all of the browsers on your network to
-request the proxy configuration from "http://pac.example.com/proxy.pac".
+request the proxy configuration from ``http://pac.example.com/proxy.pac``.
 You'd then create the files below:
 
 1) The configuration file, ending in ".conf": proxy.pac.conf
