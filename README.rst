@@ -106,3 +106,22 @@ the ``.conf`` extension. For example, if ``dpac`` is renamed to ``proxy.pac``, i
 for a configuration file named ``proxy.pac.conf``.
 
 See the `www <https://github.com/natej/dpac/blob/master/www/>`_ directory for an example.
+
+Testing
+-------
+
+Since there are currently no automated tests, check functions and values using a debugger.
+
+From the command line, you can test different conf files by running dpac in a ``tmp`` directory:
+
+.. code-block:: bash
+
+    $ cd dpac-master
+    $ mkdir tmp
+    $ cd src
+    $ make
+    $ cd ../tmp
+    $ cp ../www/proxy* .
+    $ cp ../src/dpac proxy.pac
+    # edit proxy.pac.conf with values to test
+    $ REMOTE_ADDR="10.128.2.3" ./proxy.pac

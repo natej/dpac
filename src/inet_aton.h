@@ -6,6 +6,6 @@
 #define __INET_ATON_H__
 
 struct in_addr;
-extern int inet_aton(const char* cp_arg, struct in_addr *addr);
+extern int inet_aton(const char *cp_arg, struct in_addr *addr);
 
 #endif

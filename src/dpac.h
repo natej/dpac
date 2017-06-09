@@ -3,10 +3,8 @@
  */
 
 #define APP_NAME	"dpac"
-#define APP_VERSION	"0.2"
 #define APP_DESCR	"Dynamic Proxy Auto Config"
-#define APP_COPY	"Copyright (c) 2006-2017 Nathan Jennings"
-#define APP_LICENSE	"GPLv3"
+#define APP_VERSION	"0.3.0"
 
 /* set default log level */
 #define APP_LOG_LEVEL LL_NORM

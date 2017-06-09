@@ -24,8 +24,8 @@ CFLAGS = $(CCOPT) $(INCLS)
 # targets
 #
 
-dpac : dpac.h dpac.c alog.h alog.c ipcheck.h ipcheck.c
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ alog.c ipcheck.c dpac.c $(LIBS)
+dpac : dpac.h dpac.c alog.h alog.c ip.h ip.c
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ alog.c ip.c dpac.c $(LIBS)
 
 clean :
 	rm -f dpac *.o *~
